@@ -6,10 +6,9 @@ body {
     margin: 0rem;
 
     justify-content: flex-end;
-
-    flex: 1;
-    
+  
     background-color: rebeccapurple;
+    min-height: 100vh;
 }
 
 
@@ -34,16 +33,42 @@ body {
     padding-left: 10rem;
     padding-right: 10rem;
     flex: 1;
-    padding-top: 3rem;
+    padding-top: 0rem;
     border: 2px solid pink;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
 
     align-items: center;
+}
+
+.top-image {
+    display: flex;
+    flex: 1 1 auto;
+    width: 800px;
+    height: 300px;
+    
+}
+
+img {
+    max-width: 100%;
 }
 
 .top-info {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 250px;
+    padding-right: 4rem;
+    
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: .75rem;
+    border: none;
+
+
 }
 
 .middle-content {
