@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -80,43 +85,63 @@ button {
 
 .middle-content {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     height: fit-content;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 0;
     padding-left: 10rem;
     padding-right: 10rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    gap: 1.5rem;
 }
 
 .overall-info {
     display: flex;
-    gap: 1rem;
+    gap: .25rem;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
-    background-color: #6f8199;
+   
     padding: .5rem;
+    width: 150px;
+    gap: 1rem;
 }
 
 .info-boxes {
     display: flex;
-    border: 2px solid blue;
-    border-radius: 8px;
-    height: 8rem;
+    border: 3px solid #3075e6;
+    border-radius: 12px;
+    height: 9rem;
 }
 
 
-.quote-text {
+.quote-content {
     display: flex;
-    background-color: rgb(185, 189, 224);
+    background-color: #E5E7EB;
     height: fit-content;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    flex-grow: 1;
+    flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #3075e6;
+    padding: 0px;
+    margin: 0px;
+}
+
+.author {
+    background-color: red;
+    align-self: flex-end;
 }
 
 .bottom-content {
@@ -128,9 +153,11 @@ button {
     padding-right: 8rem;
 }
 
+
+
 .footer {
     display: flex;
     background-color: wheat;
-    height: 6rem;
+    height: 4rem;
     
 }
