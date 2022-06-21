@@ -31,6 +31,11 @@ body {
 
 }
 
+.header-links {
+    display: flex;
+    gap: 2rem;
+}
+
 .top-content {
     display: flex;
     background-color: #1F2937;
@@ -39,11 +44,11 @@ body {
     padding-right: 10rem;
     flex: 1;
     padding-top: 0rem;
-    border: 2px solid pink;
+    
     padding-bottom: 0rem;
     flex-grow: 0;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     align-items: center;
 }
 
@@ -131,16 +136,19 @@ button {
 
     justify-content: center;
     align-items: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .quote {
-    background-color: #3075e6;
+    
     padding: 0px;
     margin: 0px;
 }
 
 .author {
-    background-color: red;
+    
     align-self: flex-end;
 }
 
@@ -151,13 +159,44 @@ button {
     flex-grow: 1;
     padding-left: 8rem;
     padding-right: 8rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    height: 100px;
+    width: 800px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882F6;
+
+
+
+}
+
+.cta-info {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.bottom-button {
+    border: 1px solid white;
 }
 
 
 
 .footer {
     display: flex;
-    background-color: wheat;
+    background-color: #1F2937;
     height: 4rem;
+    align-items: center;
+    justify-content: center;
     
 }
